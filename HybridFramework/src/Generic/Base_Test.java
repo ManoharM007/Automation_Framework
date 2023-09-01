@@ -16,7 +16,7 @@ public void openApp()
 {
 System.setProperty(Chrome_key, chrome_val);
 driver =new ChromeDriver();
-driver.manage().window().maximize();
+//driver.manage().window().maximize();
 driver.get(baseURL);
 driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 }
